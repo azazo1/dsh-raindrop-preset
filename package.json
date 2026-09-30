@@ -1,0 +1,15 @@
+{
+  "name": "dsh-raindrop-preset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Adds a Raindrop agent preset: the standard toolset plus the Raindrop.io bookmark MCP.",
+  "files": [
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
